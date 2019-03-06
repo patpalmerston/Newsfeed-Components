@@ -22,7 +22,7 @@ TweenMax.from('.menu-button', 2, {opacity:0, scale:0, ease:Bounce.easeOut})
 
 // TweenLite.from('.menu', 2, {opacity: 5, left: '1000px'})
 
-let tween = TweenLite.to(menu, 1, {left: '632px'});
-menu.addEventListener('click', function () {
+// let tween = TweenLite.to(menu, 1, {left: '632px'});
+// menu.addEventListener('click', function () {
  
-});
+// });
