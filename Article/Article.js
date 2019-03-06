@@ -33,3 +33,5 @@ let articles = document.querySelectorAll(".article");
 articles.forEach(function(article){
   return new Article(article);
 });
+
+TweenMax.staggerFrom('.article', 1, {opacity:0, y:200, delay: 0.25}, 0.15);
